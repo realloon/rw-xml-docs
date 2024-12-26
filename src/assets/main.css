@@ -1,0 +1,33 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --mono: 'Monaco', monospace;
+}
+
+body {
+  color: #fff;
+  background-color: #292c32;
+
+  margin: 0;
+  line-height: 1;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  display: flex;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
